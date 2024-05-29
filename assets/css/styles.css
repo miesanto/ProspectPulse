@@ -1,0 +1,74 @@
+/*--- GOOGLE FONTS ---*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*--- VARIABLES CSS ---*/
+:root {
+    /* type scale */
+    /* 48, 24, 20, 16, 14 */
+    --text-xl: 3rem;
+    --text-lg: 2.5rem;
+    --text-md: 1.25rem;
+    --text-base: 1rem;
+    --text-sm: .875rem;
+  
+    /* line height */
+    --lh-heading: 1.25;
+    --lh-copy: 1.5;
+  
+    /* spacing scale */
+    /* 160, 80, 40, 32, 24, 16 */
+    --space-4xl: 10rem;
+    --space-2xl: 5rem;
+    --space-xl: 2.5rem;
+    --space-lg: 2rem;
+    --space-md: 1.5;
+    --space-base: 1rem; 
+}
+
+h1 {
+    font-size: var(--text-xl);
+}
+  
+h2 {
+    font-size: var(--text-lg);
+    max-width: 32ch;
+    margin-bottom: var(--space-md);
+}
+  
+h3 {
+    font-size: var(--text-lg);
+}
+  
+h4 {
+    font-size: var(--text-md);
+}
+  
+h1, h3, h4 {
+    line-height: var --lh-heading;
+    margin-bottom: var(--space-md);
+}
+  
+h2, p {
+    line-height: var --lh-copy;
+}
+  
+p {
+    font-size: var(--text-base);
+    margin-bottom: var(--space-lg);
+}
+  
+details {
+    max-width: 72ch;
+    margin-bottom: var(--space-md);
+}
+  
